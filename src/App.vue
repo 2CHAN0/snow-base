@@ -5,7 +5,6 @@
 
 import 'particles.js/particles';
 const particlesJS = window.particlesJS;
-
 export default {
   name: 'App',
   created() {
@@ -129,7 +128,8 @@ export default {
   /*width: 50%;*/
   /*height: 50%;*/
   height: 100vh;
-  background: linear-gradient(to bottom, rgba(117, 114, 113, 0.8) 10%, rgba(40, 49, 77, 0.8) 30%, rgba(29, 35, 71, 0.8) 50%, rgba(19, 25, 28, 0.8) 80%, rgba(15, 14, 14, .8) 100%), url(https://yoursnowbucket2.s3.ap-northeast-2.amazonaws.com/card.PNG);
+  /*background: linear-gradient(to bottom, rgba(117, 114, 113, 0.8) 10%, rgba(40, 49, 77, 0.8) 30%, rgba(29, 35, 71, 0.8) 50%, rgba(19, 25, 28, 0.8) 80%, rgba(15, 14, 14, .8) 100%), url(https://yoursnowbucket2.s3.ap-northeast-2.amazonaws.com/card.PNG);*/
+  background: url(https://s3.ap-northeast-2.amazonaws.com/yoursnow.online/snowchallenge.png);
   background-repeat: no-repeat;
   background-size: cover;
   /*background-position: 50% 50%;*/
