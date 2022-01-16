@@ -12,7 +12,7 @@ export default {
     particlesJS("particles-js", {
       "particles": {
         "number": {
-          "value": 400,
+          "value": 250,
           "density": {
             "enable": true,
             "value_area": 800
@@ -22,9 +22,9 @@ export default {
           "value": "#ffffff"
         },
         "shape": {
-          "type": "image",
+          "type": "circle",
           "stroke": {
-            "width": 3,
+            "width": 0,
             "color": "#fff"
           },
           "polygon": {
@@ -37,8 +37,8 @@ export default {
           }
         },
         "opacity": {
-          "value": 0.7,
-          "random": false,
+          "value": 0.5,
+          "random": true,
           "anim": {
             "enable": false,
             "speed": 1,
@@ -47,7 +47,7 @@ export default {
           }
         },
         "size": {
-          "value": 5,
+          "value": 12,
           "random": true,
           "anim": {
             "enable": false,
@@ -65,7 +65,7 @@ export default {
         },
         "move": {
           "enable": true,
-          "speed": 5,
+          "speed": 6,
           "direction": "bottom",
           "random": true,
           "straight": false,
@@ -73,7 +73,7 @@ export default {
           "bounce": false,
           "attract": {
             "enable": true,
-            "rotateX": 300,
+            "rotateX": 600,
             "rotateY": 1200
           }
         }
