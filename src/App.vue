@@ -12,7 +12,7 @@ export default {
     particlesJS("particles-js", {
       "particles": {
         "number": {
-          "value": 250,
+          "value": 200,
           "density": {
             "enable": true,
             "value_area": 800
@@ -65,7 +65,7 @@ export default {
         },
         "move": {
           "enable": true,
-          "speed": 6,
+          "speed": 2,
           "direction": "bottom",
           "random": true,
           "straight": false,
@@ -106,7 +106,7 @@ export default {
             "speed": 3
           },
           "repulse": {
-            "distance": 200,
+            "distance": 250,
             "duration": 0.2
           },
           "push": {
@@ -126,11 +126,11 @@ export default {
 <style>
 #particles-js {
   /*position: absolute;*/
-  /*width: 50%;*/
+  /*width: 100%;*/
   /*height: 50%;*/
   height: 100vh;
   /*background: linear-gradient(to bottom, rgba(117, 114, 113, 0.8) 10%, rgba(40, 49, 77, 0.8) 30%, rgba(29, 35, 71, 0.8) 50%, rgba(19, 25, 28, 0.8) 80%, rgba(15, 14, 14, .8) 100%), url(https://yoursnowbucket2.s3.ap-northeast-2.amazonaws.com/card.PNG);*/
-  background: url(https://s3.ap-northeast-2.amazonaws.com/yoursnow.online/snowchallenge.png);
+  background: url(https://s3.ap-northeast-2.amazonaws.com/yoursnow.online/whatIfSnowFinal.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /*background-position: 50% 50%;*/
